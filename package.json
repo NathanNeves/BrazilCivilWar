@@ -18,6 +18,7 @@
   "homepage": "https://github.com/NathanNeves/BrazilCivilWar#readme",
   "dependencies": {
     "chart.js": "^3.5.1",
+    "chartjs-chart-geo": "^3.5.1",
     "chartjs-node-canvas": "^3.2.0",
     "randomcolor": "^0.6.2"
   }
