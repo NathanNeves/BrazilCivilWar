@@ -1,0 +1,19 @@
+{
+  "name": "brazilcivilwar",
+  "version": "1.0.0",
+  "description": "A Script made to simulate a civil war in Brazil",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NathanNeves/BrazilCivilWar.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NathanNeves/BrazilCivilWar/issues"
+  },
+  "homepage": "https://github.com/NathanNeves/BrazilCivilWar#readme"
+}
