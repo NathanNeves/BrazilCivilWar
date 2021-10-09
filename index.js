@@ -28,7 +28,7 @@ const mapa = [
     "Tocantins",
     "Distrito Federal"
 ]
-async function main(){
+/*async function main(){
     try{
         const fronteira = fs.readFileSync('./db/fronteiras.json');
         let db = require('./db/db');
@@ -39,7 +39,9 @@ async function main(){
             auxObj = {...db[i]};
             console.log(auxObj);
             auxObj.fronteira = fronteiraObj[i].Fronteiras.split(',').map(item=>{
-                return mapa.indexOf(item.trim().replace("'",""));
+                console.log(item.trim())
+                console.log(mapa.indexOf(item.trim()))
+                return mapa.indexOf(item.trim());
             });
             arrObj2.push(auxObj);
         }
@@ -47,6 +49,7 @@ async function main(){
     }catch(e){
         console.log(e);
     }
-}
+}*/
+
 
 main();
