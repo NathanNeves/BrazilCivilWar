@@ -1,0 +1,110 @@
+[
+    {
+      "Nome": "Acre",
+      "Fronteiras": "Amazonas, Rondônia"
+    },
+    {
+      "Nome": "Alagoas",
+      "Fronteiras": "Bahia, Sergipe, Pernambuco"
+    },
+    {
+      "Nome": "Amapá",
+      "Fronteiras": "Pará"
+    },
+    {
+      "Nome": "Amazonas",
+      "Fronteiras": "Acre, Roraima, Rondônia, Mato Grosso"
+    },
+    {
+      "Nome": "Bahia",
+      "Fronteiras": "Sergipe', 'Alagoas', 'Pernambuco', 'Piauí', 'Tocantins', 'Goiás', 'Minas Gerais' , 'Espírito Santo'"
+    },
+    {
+      "Nome": "Ceará",
+      "Fronteiras": "Rio Grande do Norte, Paraíba, Pernambuco, Piauí"
+    },
+    {
+      "Nome": "Espírito Santo",
+      "Fronteiras": "Bahia,Minas Gerais,Rio de Janeiro"
+    },
+    {
+      "Nome": "Goiás",
+      "Fronteiras": "Minas Gerais, Distrito Federal, Bahia, Tocantis, Mato Grosso, Mato Grosso do Sul"
+    },
+    {
+      "Nome": "Maranhão",
+      "Fronteiras": "Piauí, Tocantis, Pará"
+    },
+    {
+      "Nome": "Mato Grosso",
+      "Fronteiras": "Amazonas, Pará, Mato Grosso do Sul, Rondônia, Tocantins, Goiás"
+    },
+    {
+      "Nome": "Mato Grosso do Sul",
+      "Fronteiras": "Mato Grosso, Goiás, Minas Gerais, São Paulo, Paraná"
+    },
+    {
+      "Nome": "Minas Gerais",
+      "Fronteiras": "Bahia', 'Espírito Santo' , 'Rio de Janeiro', 'São Paulo', 'Goiás'"
+    },
+    {
+      "Nome": "Pará",
+      "Fronteiras": "Amapá,Roraima,Amazonas,Mato Grosso,Tocantins,Maranhão"
+    },
+    {
+      "Nome": "Paraíba",
+      "Fronteiras": "Rio Grande do Norte,Pernambuco,Ceará"
+    },
+    {
+      "Nome": "Paraná",
+      "Fronteiras": "Santa Catarina, Mato Grosso do Sul, São Paulo"
+    },
+    {
+      "Nome": "Pernambuco",
+      "Fronteiras": "Bahia,Alagoas,Paraíba,Ceará,Piauí"
+    },
+    {
+      "Nome": "Piauí",
+      "Fronteiras": "Maranhão, Ceará, Pernambuco, Bahia, Tocantis"
+    },
+    {
+      "Nome": "Rio de Janeiro",
+      "Fronteiras": "Espírito Santo' , 'Minas Gerais' , 'São Paulo'"
+    },
+    {
+      "Nome": "Rio Grande do Norte",
+      "Fronteiras": "Ceará, Paraíba"
+    },
+    {
+      "Nome": "Rio Grande do Sul",
+      "Fronteiras": "Santa Catarina"
+    },
+    {
+      "Nome": "Rondônia",
+      "Fronteiras": "Acre, Amazonas,Mato Grosso"
+    },
+    {
+      "Nome": "Roraima",
+      "Fronteiras": "Amazonas,Pará"
+    },
+    {
+      "Nome": "Santa Catarina",
+      "Fronteiras": "Paraná, Rio Grande do Sul"
+    },
+    {
+      "Nome": "São Paulo",
+      "Fronteiras": "Rio de Janeiro,Minas Gerais ,Parana,Mato Grosso."
+    },
+    {
+      "Nome": "Sergipe",
+      "Fronteiras": "Amazonas e Pará"
+    },
+    {
+      "Nome": "Tocantins",
+      "Fronteiras": "Pará,Maranhão,Piauí,Bahia,Mato Grosso,Goiás"
+    },
+    {
+      "Nome": "Distrito Federal",
+      "Fronteiras": "Goiás, Minas Gerais"
+    }
+   ]
