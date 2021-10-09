@@ -1,28 +1,28 @@
-0 - Acre
-1 - Alagoas
-2 - Amapá
-3 - Amazonas
-4 -Bahia
-5 - Ceará
-6- Espírito Santo
-7- Goiás
-8 -Maranhão
-9 - Mato Grosso
-10 - Mato Grosso do Sul
-11 - Minas Gerais
-12 - Pará
-13 -Paraíba
-14 -Paraná
-15 -Pernambuco
-16 -Piauí
-17 -Rio de Janeiro
-18 -Rio Grande do Norte
-19 -Rio Grande do Sul
-20 -Rondônia
-21 -Roraima
-22 -Santa Catarina
-23 -São Paulo
-24 - Sergipe
-26 - Tocantins
-27 -Distrito Federal
+Acre
+Alagoas
+Amapá
+Amazonas
+Bahia
+Ceará
+Espírito Santo
+Goiás
+Maranhão
+Mato Grosso
+Mato Grosso do Sul
+Minas Gerais
+Pará
+Paraíba
+Paraná
+Pernambuco
+Piauí
+Rio de Janeiro
+Rio Grande do Norte
+Rio Grande do Sul
+Rondônia
+Roraima
+Santa Catarina
+São Paulo
+Sergipe
+Tocantins
+Distrito Federal
 

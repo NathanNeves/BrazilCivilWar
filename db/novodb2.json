@@ -1,0 +1,23 @@
+[{
+    "nome": "Rio Grande do Sul ",
+    "sigla": "RS",
+    "fronteira": [
+        1
+    ]
+},
+{
+    "nome": "Santa Catarina ",
+    "sigla": "SC",
+    "fronteira": [
+        0,
+        2
+    ]
+},
+{
+    "nome": "Paraná",
+    "sigla": "PR",
+    "fronteira": [
+        1
+    ]
+}
+]

@@ -17,7 +17,7 @@
     },
     {
       "Nome": "Bahia",
-      "Fronteiras": "Sergipe', 'Alagoas', 'Pernambuco', 'Piauí', 'Tocantins', 'Goiás', 'Minas Gerais' , 'Espírito Santo'"
+      "Fronteiras": "Sergipe, Alagoas, Pernambuco, Piauí, Tocantins, Goiás, Minas Gerais , Espírito Santo"
     },
     {
       "Nome": "Ceará",
@@ -29,11 +29,11 @@
     },
     {
       "Nome": "Goiás",
-      "Fronteiras": "Minas Gerais, Distrito Federal, Bahia, Tocantis, Mato Grosso, Mato Grosso do Sul"
+      "Fronteiras": "Minas Gerais, Distrito Federal, Bahia, Tocantins, Mato Grosso, Mato Grosso do Sul"
     },
     {
       "Nome": "Maranhão",
-      "Fronteiras": "Piauí, Tocantis, Pará"
+      "Fronteiras": "Piauí, Tocantins, Pará"
     },
     {
       "Nome": "Mato Grosso",
@@ -45,7 +45,7 @@
     },
     {
       "Nome": "Minas Gerais",
-      "Fronteiras": "Bahia', 'Espírito Santo' , 'Rio de Janeiro', 'São Paulo', 'Goiás'"
+      "Fronteiras": "Bahia, Espírito Santo , Rio de Janeiro, São Paulo, Goiás"
     },
     {
       "Nome": "Pará",
@@ -65,11 +65,11 @@
     },
     {
       "Nome": "Piauí",
-      "Fronteiras": "Maranhão, Ceará, Pernambuco, Bahia, Tocantis"
+      "Fronteiras": "Maranhão, Ceará, Pernambuco, Bahia, Tocantins"
     },
     {
       "Nome": "Rio de Janeiro",
-      "Fronteiras": "Espírito Santo' , 'Minas Gerais' , 'São Paulo'"
+      "Fronteiras": "Espírito Santo , Minas Gerais , São Paulo"
     },
     {
       "Nome": "Rio Grande do Norte",
@@ -93,11 +93,11 @@
     },
     {
       "Nome": "São Paulo",
-      "Fronteiras": "Rio de Janeiro,Minas Gerais ,Parana,Mato Grosso."
+      "Fronteiras": "Rio de Janeiro,Minas Gerais ,Paraná,Mato Grosso"
     },
     {
       "Nome": "Sergipe",
-      "Fronteiras": "Amazonas e Pará"
+      "Fronteiras": "Amazonas,Pará"
     },
     {
       "Nome": "Tocantins",
