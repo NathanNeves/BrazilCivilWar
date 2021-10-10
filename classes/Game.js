@@ -1,7 +1,8 @@
 const fs = require('fs');
 let randomcolor = require('randomcolor');
 const State = require('./State.js');
-const { CanvasRenderService } = require('chartjs-node-canvas');
+
+
 class Game{
     constructor(){
         this.estados = []
@@ -15,19 +16,41 @@ class Game{
 
 
 
-    generateChloropleth =  async () =>{
-        try{
-            let canvasRenderService = new CanvasRenderService(400,400); 
-            let configuration = {
-
-            }
-
-            const imageBuffer = await canvasRenderService.renderToBuffer(configuration);
-            let data = Date.now();
-            fs.writeFileSync('../'+String(data)+".png",imageBuffer);
-        }catch(e){
-            console.log(e);
-        }
+    generateMap =  async () =>{
+        let width = 900,
+        height = 500;
+        
+        let Image = Canvas.Image
+        , canvas = new Canvas(width, height)
+        , context = canvas.getContext('2d');
+        
+        let projection = d3.geo.mercator();
+        let path = d3.geo.path()
+        .projection(projection);
+        let br = fs.readFileSync("../db/brazil-states2.json");
+        let data = JSON.parse(br);
+        let land = topojson.feature(data, data.objects.land);
+        
+        context.strokeStyle = '#888';
+        context.fillStyle = '#aaa';
+        
+        context.beginPath();
+        path.context(context)(land);
+        context.fill();
+        
+        context.beginPath();
+        path.context(context)(land);
+        context.stroke();
+        
+        let out = fs.createWriteStream(__dirname + '/test.png');
+        let stream = canvas.pngStream();
+        stream.on('data', function(chunk){
+        out.write(chunk);
+        });
+        
+        stream.on('end', function(){
+        console.log('saved png');
+        });
     }
 
     gerarCores = () =>{
@@ -125,3 +148,4 @@ class Game{
 
 let game = new Game();
 game.tick();
+game.generateMap();
