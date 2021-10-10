@@ -27,9 +27,18 @@ class State{
 
 
     addConqueredState = (conqueredState) => {
+        // console.log("Capturador : " + this.name);
+        // console.log("Capturado: " + conqueredState.name);
         conqueredState.changeColor(this.color);
         if(conqueredState.dono){
             conqueredState.dono.removeConqueredState(conqueredState);
+        }
+        else{
+            conqueredState.conqueredStates.forEach(item => {
+                // console.log(this.game.estados.length);
+                // console.log("id do estado: "+item.name);
+                this.addConqueredState(item);
+            });
         }
         /*this.addNeighbors(conqueredState.neighbors);*/
         this.conqueredStates.push(conqueredState);
