@@ -1,7 +1,7 @@
 const fs = require('fs');
 let randomcolor = require('randomcolor');
 const State = require('./State.js');
-
+let osmsm = require('osm-static-maps');
 
 class Game{
     constructor(){
@@ -17,40 +17,29 @@ class Game{
 
 
     generateMap =  async () =>{
-        let width = 900,
-        height = 500;
-        
-        let Image = Canvas.Image
-        , canvas = new Canvas(width, height)
-        , context = canvas.getContext('2d');
-        
-        let projection = d3.geo.mercator();
-        let path = d3.geo.path()
-        .projection(projection);
-        let br = fs.readFileSync("../db/brazil-states2.json");
-        let data = JSON.parse(br);
-        let land = topojson.feature(data, data.objects.land);
-        
-        context.strokeStyle = '#888';
-        context.fillStyle = '#aaa';
-        
-        context.beginPath();
-        path.context(context)(land);
-        context.fill();
-        
-        context.beginPath();
-        path.context(context)(land);
-        context.stroke();
-        
-        let out = fs.createWriteStream(__dirname + '/test.png');
-        let stream = canvas.pngStream();
-        stream.on('data', function(chunk){
-        out.write(chunk);
-        });
-        
-        stream.on('end', function(){
-        console.log('saved png');
-        });
+        let json = fs.readFileSync('../db/brazil-states.json');
+        let geojson = JSON.parse(json);
+        let features = [];
+        console.log(geojson);
+        for(let estado of this.estados){
+            for(let geo of geojson.features){
+                if(geo.properties.sigla == estado.sigla){
+                    console.log(estado.color);
+                    geo.pathOptions = {
+                        color:estado.color,
+                        fill:true
+                    }
+                    features.push(geo);
+                }
+            }
+            
+        }
+        geojson.features = features
+        console.log(geojson.features);
+        osmsm({geojson: geojson}).then(function(imageBinaryBuffer) {
+            fs.writeFileSync("../image.png",imageBinaryBuffer);
+            return;
+        })
     }
 
     gerarCores = () =>{
